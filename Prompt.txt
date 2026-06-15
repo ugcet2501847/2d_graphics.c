@@ -1,0 +1,46 @@
+Design and implement a menu-driven 2D Graphics Editor in C using a 2D character array as the drawing canvas. The canvas should initially be filled with the '_' (underscore) character, while all graphical objects must be drawn using the '*' (asterisk) character.
+
+The program should support the following features:
+
+1. Draw graphical objects:
+   
+   - Line
+   - Rectangle
+   - Circle
+   - Triangle
+
+2. Object Management (CRUD Operations):
+   
+   - Add new shapes to the canvas.
+   - Delete existing shapes using a unique shape ID.
+   - Modify the coordinates and dimensions of existing shapes.
+
+3. Canvas Management:
+   
+   - Maintain all shapes in memory using appropriate data structures.
+   - Redraw the entire canvas whenever changes are made.
+   - Display the canvas with row indices and borders for easy visualization.
+
+4. Shape Storage:
+   
+   - Use structures and unions to store shape-specific data.
+   - Assign a unique ID to every shape.
+   - Support a maximum number of shapes defined by a constant.
+
+5. Graphics Algorithms:
+   
+   - Implement Bresenham's Line Drawing Algorithm for lines.
+   - Implement rectangle drawing using boundary plotting.
+   - Implement the Midpoint Circle Algorithm for circles.
+   - Draw triangles using three connected line segments.
+
+6. User Interface:
+   
+   - Provide a menu-driven interface with options to:
+     - Add Shape
+     - Delete Shape
+     - Modify Shape
+     - Exit Program
+   - Validate user input and handle invalid operations gracefully.
+
+The program should demonstrate the use of arrays, structures, unions, enumerations, functions, and fundamental computer graphics concepts in C while creating an interactive text-based graphics editor.
